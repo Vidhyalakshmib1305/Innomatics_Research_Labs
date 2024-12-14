@@ -20,5 +20,44 @@ This project implements an **AI-powered code reviewer** using Google's Gemini AI
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/ai-code-reviewer.git
+   git clone https://github.com/Vidhyalakshmib1305/ai-code-reviewer.git (change it accordingly to your username and repository)
    cd ai-code-reviewer
+
+2. **Set up a virtual environment (optional but recommended)**:
+   ```bash
+   python -m venv .env
+   source .env/bin/activate  # On Windows use `.env\Scripts\activate`
+
+3.**Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+
+4. ***Get your Gemini API key***:
+
+- Sign up for access to Google Gemini AI and obtain an API key.
+- Save your API key in a file named gemini_api.txt under the keys/ directory in your project folder.
+
+# **Usage**
+
+1. **Run the Streamlit app**:
+   ```bash
+   streamlit run app.py
+
+2. **Open the application**:
+- After running the command, open your browser and navigate to the address shown in the terminal (usually http://localhost:8501).
+
+3. **Enter your Python code**:
+   - In the input box, paste your Python code that you want to be reviewed.
+   - Click the "Generate" button to receive feedback from the AI.
+
+4. **Review the feedback**:
+   - The AI will provide structured feedback, highlighting bugs, performance improvements, and security vulnerabilities, along with suggestions for improvement.
+
+# **Example Input**
+
+```python
+def sub(a, b):     
+    return a - b  
+
+print(add(5, '10'))
+
