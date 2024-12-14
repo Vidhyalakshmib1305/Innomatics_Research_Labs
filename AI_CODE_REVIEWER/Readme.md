@@ -32,6 +32,7 @@ This project implements an **AI-powered code reviewer** using Google's Gemini AI
    ```bash
    pip install -r requirements.txt
 
+
 4. ***Get your Gemini API key***:
 
 - Sign up for access to Google Gemini AI and obtain an API key.
