@@ -29,13 +29,12 @@ This project implements an **AI-powered code reviewer** using Google's Gemini AI
    source .env/bin/activate  # On Windows use `.env\Scripts\activate`
 
 3.**Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
+      ```bash
+      pip install -r requirements.txt
 
-4. ***Get your Gemini API key***:
-
-- Sign up for access to Google Gemini AI and obtain an API key.
-- Save your API key in a file named gemini_api.txt under the keys/ directory in your project folder.
+4. **Get your Gemini API key**:
+   - Sign up for access to Google Gemini AI and obtain an API key.
+   - Save your API key in a file named `gemini_api.txt` under the `keys/` directory in your project folder.
 
 # **Usage**
 
