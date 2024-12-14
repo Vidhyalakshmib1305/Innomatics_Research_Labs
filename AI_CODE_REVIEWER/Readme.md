@@ -62,21 +62,21 @@ This project implements an **AI-powered code reviewer** using Google's Gemini AI
 # **Example Output**
 
 
-# **Bug Report**:
+## **Bug Report**:
 
-# **Issue**: 
+## **Issue**: 
 The function add() is called, but it is not defined.
 
-# **Impact** :
+## **Impact** :
 This will raise a NameError because the function add() is not available in the scope.
 
-# **Suggestions for Improvement** : 
+## **Suggestions for Improvement** : 
 Define the add() function or replace it with the correct function.
 
-# **Educational Tip** : 
+## **Educational Tip** : 
 Provide additional tips to understand deeper about the concepts.
 
-# **Fixed Code** :
+## **Fixed Code** :
       python
       
          def sub(a, b):     
@@ -86,8 +86,8 @@ Provide additional tips to understand deeper about the concepts.
                   return "Invalid input types"
 
 
-# **Contributing**:
+## **Contributing**:
 Feel free to fork the repository and submit pull requests if you want to contribute to the project. We welcome improvements and bug fixes!
 
-# **License**:
+## **License**:
 This project is licensed under the MIT License - see the LICENSE file for details.
