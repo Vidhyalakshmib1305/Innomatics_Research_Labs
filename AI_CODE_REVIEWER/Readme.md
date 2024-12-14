@@ -28,9 +28,9 @@ This project implements an **AI-powered code reviewer** using Google's Gemini AI
    python -m venv .env
    source .env/bin/activate  # On Windows use `.env\Scripts\activate`
 
-3.**Install dependencies**:
-      ```bash
-      pip install -r requirements.txt
+3. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
 
 4. **Get your Gemini API key**:
    - Sign up for access to Google Gemini AI and obtain an API key.
@@ -53,10 +53,39 @@ This project implements an **AI-powered code reviewer** using Google's Gemini AI
    - The AI will provide structured feedback, highlighting bugs, performance improvements, and security vulnerabilities, along with suggestions for improvement.
 
 # **Example Input**
+      ```python
+      def sub(a, b):     
+          return a - b  
+      print(add(5, '10'))
 
-```python
-def sub(a, b):     
-    return a - b  
+# **Example Output**
 
-print(add(5, '10'))
 
+# **Bug Report**:
+
+# **Issue**: 
+The function add() is called, but it is not defined.
+
+# **Impact** :
+This will raise a NameError because the function add() is not available in the scope.
+
+# **Suggestions for Improvement** : 
+Define the add() function or replace it with the correct function.
+
+# **Educational Tip** : 
+Provide additional tips to understand deeper about the concepts.
+
+# **Fixed Code** :
+      ```python
+         def sub(a, b):     
+             if isinstance(a, int) and isinstance(b, int):         
+                  return a - b     
+             else:         
+                  return "Invalid input types"
+
+
+# **Contributing**:
+Feel free to fork the repository and submit pull requests if you want to contribute to the project. We welcome improvements and bug fixes!
+
+# **License**:
+This project is licensed under the MIT License - see the LICENSE file for details.
