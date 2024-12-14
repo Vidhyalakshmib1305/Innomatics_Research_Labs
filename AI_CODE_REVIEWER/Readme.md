@@ -53,7 +53,7 @@ This project implements an **AI-powered code reviewer** using Google's Gemini AI
    - The AI will provide structured feedback, highlighting bugs, performance improvements, and security vulnerabilities, along with suggestions for improvement.
 
 # **Example Input**
-      ```python
+      python
       def sub(a, b):     
           return a - b  
       print(add(5, '10'))
@@ -76,7 +76,7 @@ Define the add() function or replace it with the correct function.
 Provide additional tips to understand deeper about the concepts.
 
 # **Fixed Code** :
-      ```python
+      python
          def sub(a, b):     
              if isinstance(a, int) and isinstance(b, int):         
                   return a - b     
