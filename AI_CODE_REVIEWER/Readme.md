@@ -33,7 +33,7 @@ This project implements an **AI-powered code reviewer** using Google's Gemini AI
    pip install -r requirements.txt
 
 
-4. ***Get your Gemini API key***:
+4.***Get your Gemini API key***:
 
 - Sign up for access to Google Gemini AI and obtain an API key.
 - Save your API key in a file named gemini_api.txt under the keys/ directory in your project folder.
