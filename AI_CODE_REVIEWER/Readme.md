@@ -66,10 +66,13 @@ This project implements an **AI-powered code reviewer** using Google's Gemini AI
 
 # **Issue**: 
 The function add() is called, but it is not defined.
+
 # **Impact** :
 This will raise a NameError because the function add() is not available in the scope.
+
 # **Suggestions for Improvement** : 
 Define the add() function or replace it with the correct function.
+
 # **Educational Tip** : 
 Provide additional tips to understand deeper about the concepts.
 
